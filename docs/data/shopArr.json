@@ -1,48 +1,1972 @@
 [
     {
-        "id": 0,
-        "name": "sneakers",
-        "category": "shoes",
-        "disabled": true
-    },{
-        "id": 1,
-        "name": "shoes",
-        "category": "shoes"
-    },{
-        "id": 2,
-        "name": "slippers",
-        "category": "shoes"
-    },{
-        "id": 3,
-        "name": "boots",
-        "category": "shoes",
-        "disabled": true
-    },{
-        "id": 4,
-        "name": "shirt",
-        "category": "clothes",
-        "disabled": true
-    },{
-        "id": 5,
-        "name": "jacket",
-        "category": "clothes"
-    },{
-        "id": 6,
-        "name": "T-shirt",
-        "category": "clothes"
-    },{
-        "id": 7,
-        "name": "pants",
-        "category": "clothes"
-    },{
-        "id": 8,
-        "name": "jeans",
-        "category": "clothes"
-    },{
-        "id": 9,
-        "name": "cap"
-    },{
-        "id": 10,
-        "name": "belt"
+      "id": "2b94d470-79cb-44aa-982c-d0f5409bc85d",
+      "name": "IUCN",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "17b5547a-cbd7-332a-a017-d3370fbe99b6",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "5d70d9b0-3ead-4a6b-bcf2-231bdde2a815",
+          "name": "IUCN",
+          "language": ""
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "50ed74a8-9529-4848-9d74-146f053d244f",
+          "name": "African Elephant Specialist Group",
+          "language": "en"
+        },
+        {
+          "id": "a579bc4f-8b7a-4a84-9603-423c10ca2387",
+          "name": "International Union for Conservation of Nature",
+          "language": "en"
+        },
+        {
+          "id": "169a0ca1-f0bf-4252-9205-e4646a173089",
+          "name": "International Union for Protection of Nature",
+          "language": "en"
+        },
+        {
+          "id": "f73d07be-261a-48f7-bc7c-8d77ff2ada2f",
+          "name": "Red List of Threatened Species",
+          "language": "en"
+        },
+        {
+          "id": "33a8d09b-aa06-4d00-8521-43835ac8bc19",
+          "name": "World Conservation Union",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:24:26.503087Z",
+      "modified_at": "2017-12-26T11:22:31.571582Z"
+    },
+    {
+      "id": "6112313e-b7a3-465f-b70d-50c7518c253c",
+      "name": "Bafra",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "164604b6-e5dd-325d-a565-f801f0f618ac",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "d0a163de-1736-4b01-8a1a-95188a70933b",
+        "name": "Samsun",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "482521a8-72c4-3258-a1ae-060a3336f8f4"
+      },
+      "parent_uuid": "482521a8-72c4-3258-a1ae-060a3336f8f4",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:08:47.547884Z",
+      "modified_at": "2017-11-29T16:31:51.370543Z"
+    },
+    {
+      "id": "631db3a2-bb4e-4d54-9f79-0a0238181597",
+      "name": "Yafran",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "6d573d95-cf6d-3c19-8c05-c6476c007a1b",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "743802f8-e12f-41cb-9a17-5bb871971e5d",
+        "name": "Sha‘bīyat al Jabal al Gharbī",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "ba1dc211-a565-3607-90bd-306eb2dd0d2c"
+      },
+      "parent_uuid": "ba1dc211-a565-3607-90bd-306eb2dd0d2c",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:23:40.523383Z",
+      "modified_at": "2017-11-29T16:30:13.487269Z"
+    },
+    {
+      "id": "ea62b9fa-0b15-442a-a898-90cf471adcdf",
+      "name": "Aafrah",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "a02a6a55-99cd-376d-b5a8-830aa0b73e83",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "42359470-447e-4c78-a017-1bf1984b5922",
+        "name": "Mohafazat Baalbek-Hermel",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "713ea0a2-d14c-30b6-9770-00eba36479e0"
+      },
+      "parent_uuid": "713ea0a2-d14c-30b6-9770-00eba36479e0",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:06:09.423524Z",
+      "modified_at": "2017-11-29T16:31:56.261444Z"
+    },
+    {
+      "id": "48de17c5-1fff-4691-a7d2-0bfb1099537c",
+      "name": "Africa",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "14137895-cbdd-343a-8308-54dd89d36d6e",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "9101e8c0-dd83-41a2-8ac1-be56f6b70b9f",
+        "name": "Earth",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "eea9ad49-32fc-3a7c-bf15-cfeabdaa2fb7"
+      },
+      "parent_uuid": "eea9ad49-32fc-3a7c-bf15-cfeabdaa2fb7",
+      "themes_count": 3,
+      "theme_set": [
+        {
+          "id": "6a56f1dd-c879-45fd-b0a8-ee58be248aab",
+          "name": "AfricaTheme",
+          "weight": 1
+        },
+        {
+          "id": "29ca841a-17d9-4b0a-9568-23b48a4307eb",
+          "name": "dailiyError",
+          "weight": 0.5
+        },
+        {
+          "id": "4b541d98-f562-45b1-980d-4055c72a2525",
+          "name": "wildlife_raul",
+          "weight": 0.025
+        }
+      ],
+      "contents_count": 11,
+      "content_set": [
+        {
+          "id": "eeaef32e-e841-492d-93b4-34a0a0e03347",
+          "title": "Africa's Deadliest",
+          "weight": 0.8,
+          "origin": "title",
+          "location": "",
+          "created_at": "2018-01-08T11:38:42.870655Z",
+          "modified_at": "2018-01-08T11:38:42.870698Z"
+        },
+        {
+          "id": "debbd1ae-e469-4341-99d0-9e43d6c75996",
+          "title": "A Leopard's Last Stand",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:17.265351Z",
+          "modified_at": "2018-01-08T11:38:17.265383Z"
+        },
+        {
+          "id": "be2af959-a379-4fa1-b08d-2bd89f58a7ed",
+          "title": "Survivors of The Plains",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:22.452325Z",
+          "modified_at": "2018-01-08T11:38:22.452354Z"
+        },
+        {
+          "id": "1ca0d255-d19d-4b82-b9fd-1634cc0f5f97",
+          "title": "Bound By Blood",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:18.626494Z",
+          "modified_at": "2018-01-08T11:38:18.626524Z"
+        },
+        {
+          "id": "d7373adb-dfc3-4dae-b53c-255a2f995689",
+          "title": "The Misfit",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:19.721994Z",
+          "modified_at": "2018-01-08T11:38:19.722025Z"
+        },
+        {
+          "id": "b3c67eb3-c1b0-4683-a11f-eb1ce8ff7dcc",
+          "title": "Teenage Pride",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:21.191005Z",
+          "modified_at": "2018-01-08T11:38:21.191035Z"
+        },
+        {
+          "id": "2ad81066-5b60-43ff-90c6-71197b852e53",
+          "title": "The Hungry Leopard",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:09.231352Z",
+          "modified_at": "2018-01-08T11:38:09.231383Z"
+        },
+        {
+          "id": "065596c1-fa05-45e9-9da1-23dc9f2a67cf",
+          "title": "A Race Against Time",
+          "weight": 0.4,
+          "origin": "program_synopsis",
+          "location": "",
+          "created_at": "2018-01-09T11:28:41.222319Z",
+          "modified_at": "2018-01-09T11:28:41.222348Z"
+        },
+        {
+          "id": "11eabf3d-800a-4a27-a83c-821ee4d6c580",
+          "title": "Egypt’s Treasure Guardians",
+          "weight": 0.4,
+          "origin": "title",
+          "location": "",
+          "created_at": "2018-01-09T11:26:01.149935Z",
+          "modified_at": "2018-01-09T11:26:01.149957Z"
+        },
+        {
+          "id": "9ecf7952-9da4-4d62-925f-edd5377fc895",
+          "title": "River of Kings",
+          "weight": 0.15,
+          "origin": "episode_synopsis",
+          "location": "",
+          "created_at": "2018-01-09T11:28:28.412787Z",
+          "modified_at": "2018-01-09T11:28:28.412810Z"
+        },
+        {
+          "id": "3abd3bf6-6008-4b68-9db4-86ca7856b905",
+          "title": "The Egyptian Job",
+          "weight": 3.19694796003669e-18,
+          "origin": "ZZepositoryALL_NG_1.xml",
+          "location": "",
+          "created_at": "2018-01-09T11:28:20.022280Z",
+          "modified_at": "2018-01-09T11:28:20.022302Z"
+        }
+      ],
+      "created_at": "2017-11-29T15:02:49.366242Z",
+      "modified_at": "2017-11-29T16:32:02.787500Z"
+    },
+    {
+      "id": "9986ffb6-99b1-4807-b99c-ddc25c29aa3b",
+      "name": "african",
+      "language": "en",
+      "type": "EMERGENT",
+      "uuid": null,
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 4,
+      "content_set": [
+        {
+          "id": "2ad81066-5b60-43ff-90c6-71197b852e53",
+          "title": "The Hungry Leopard",
+          "weight": 0.706191893932196,
+          "origin": "NG+ Feb Schedule.xml",
+          "location": "",
+          "created_at": "2018-01-08T11:38:09.760048Z",
+          "modified_at": "2018-01-08T11:38:09.760079Z"
+        },
+        {
+          "id": "79d66dc4-a19d-4d29-9acc-ce3376ba7db9",
+          "title": "Leopard Rock",
+          "weight": 0.34885015184533,
+          "origin": "ZZepositoryALL_NG_1.xml",
+          "location": "",
+          "created_at": "2018-01-09T11:27:18.123521Z",
+          "modified_at": "2018-01-09T11:27:18.123552Z"
+        },
+        {
+          "id": "7e82838a-bbee-458f-a35a-e4e6dccd8913",
+          "title": "Ivory Trade, The",
+          "weight": 0.087241200563,
+          "origin": "DVH01550-EN_US.vtt",
+          "location": "",
+          "created_at": "2017-12-12T14:40:35.932041Z",
+          "modified_at": "2017-12-12T14:40:35.932062Z"
+        },
+        {
+          "id": "0b694788-e3fd-4c33-b522-d99268debfa3",
+          "title": "Killer Climb",
+          "weight": 0.0733073881544,
+          "origin": "DVH31085-EN_US.vtt",
+          "location": "",
+          "created_at": "2017-12-12T14:45:25.387238Z",
+          "modified_at": "2017-12-12T14:45:25.387270Z"
+        }
+      ],
+      "created_at": "2017-12-12T14:40:35.929878Z",
+      "modified_at": "2017-12-12T14:40:35.929909Z"
+    },
+    {
+      "id": "cc4afa7c-5030-4f0f-8c4b-2321232ce018",
+      "name": "africa'",
+      "language": "en",
+      "type": "EMERGENT",
+      "uuid": null,
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 7,
+      "content_set": [
+        {
+          "id": "eeaef32e-e841-492d-93b4-34a0a0e03347",
+          "title": "Africa's Deadliest",
+          "weight": 0.4,
+          "origin": "title",
+          "location": "",
+          "created_at": "2018-01-08T11:38:42.617266Z",
+          "modified_at": "2018-01-08T11:38:42.617295Z"
+        },
+        {
+          "id": "1ca0d255-d19d-4b82-b9fd-1634cc0f5f97",
+          "title": "Bound By Blood",
+          "weight": 0.3,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:18.395868Z",
+          "modified_at": "2018-01-08T11:38:18.395900Z"
+        },
+        {
+          "id": "debbd1ae-e469-4341-99d0-9e43d6c75996",
+          "title": "A Leopard's Last Stand",
+          "weight": 0.3,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:17.035067Z",
+          "modified_at": "2018-01-08T11:38:17.035098Z"
+        },
+        {
+          "id": "2ad81066-5b60-43ff-90c6-71197b852e53",
+          "title": "The Hungry Leopard",
+          "weight": 0.3,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:08.982828Z",
+          "modified_at": "2018-01-08T11:38:08.982848Z"
+        },
+        {
+          "id": "be2af959-a379-4fa1-b08d-2bd89f58a7ed",
+          "title": "Survivors of The Plains",
+          "weight": 0.3,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:22.221879Z",
+          "modified_at": "2018-01-08T11:38:22.221911Z"
+        },
+        {
+          "id": "b3c67eb3-c1b0-4683-a11f-eb1ce8ff7dcc",
+          "title": "Teenage Pride",
+          "weight": 0.3,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:20.960337Z",
+          "modified_at": "2018-01-08T11:38:20.960369Z"
+        },
+        {
+          "id": "d7373adb-dfc3-4dae-b53c-255a2f995689",
+          "title": "The Misfit",
+          "weight": 0.3,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:19.490418Z",
+          "modified_at": "2018-01-08T11:38:19.490449Z"
+        }
+      ],
+      "created_at": "2018-01-08T11:38:08.980579Z",
+      "modified_at": "2018-01-08T11:38:08.980609Z"
+    },
+    {
+      "id": "57446c3b-ca38-4561-bcbe-dfaa13a0f7d5",
+      "name": "Afragola",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "15dd5db8-6512-3d79-a988-c32a05424803",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "a2f2de36-3983-4e55-85ea-c654e3335b09",
+        "name": "Campania",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "6407d1f1-edc0-302e-bc23-0dbebf2d642e"
+      },
+      "parent_uuid": "6407d1f1-edc0-302e-bc23-0dbebf2d642e",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:06:34.320058Z",
+      "modified_at": "2017-11-29T16:31:55.595106Z"
+    },
+    {
+      "id": "79d2f06e-a1bc-4a62-ac9f-88bfeef91e98",
+      "name": "Al Mafraq",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "8538c752-539b-3b95-9670-5cf79950e12a",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "6409c18f-aff5-4be2-b5b8-526641bc846f",
+        "name": "Jordan",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "794fb835-ad40-33d5-9eab-37a1f5953a51"
+      },
+      "parent_uuid": "794fb835-ad40-33d5-9eab-37a1f5953a51",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:07:07.677006Z",
+      "modified_at": "2017-11-29T16:31:54.531766Z"
+    },
+    {
+      "id": "b92f7452-a8ab-47f5-aadd-039c012573c2",
+      "name": "Al Mafraq",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "0a6f6c22-30cc-38b4-9c5f-f9848f75a849",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "79d2f06e-a1bc-4a62-ac9f-88bfeef91e98",
+        "name": "Al Mafraq",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "8538c752-539b-3b95-9670-5cf79950e12a"
+      },
+      "parent_uuid": "8538c752-539b-3b95-9670-5cf79950e12a",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:07:07.684783Z",
+      "modified_at": "2017-11-29T16:31:54.529242Z"
+    },
+    {
+      "id": "73ae3da5-0da8-452e-bd16-8f1dbdcfce00",
+      "name": "Lake Afrera",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "9dbabd19-9d0f-38be-8457-0e70a28ce5c9",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "3687d84d-8bb2-4e15-bb78-c8725e2132bc",
+        "name": "Afar Region",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "cfcbd226-90a2-3b69-9489-cb03e9012e92"
+      },
+      "parent_uuid": "cfcbd226-90a2-3b69-9489-cb03e9012e92",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:54:37.850951Z",
+      "modified_at": "2017-11-29T16:31:09.479820Z"
+    },
+    {
+      "id": "c3d94839-823d-49c9-91c1-0c09b22577ff",
+      "name": "West Africa",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "bc38756e-6b8c-35c2-b8b1-e82d8cb5a19e",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "48de17c5-1fff-4691-a7d2-0bfb1099537c",
+        "name": "Africa",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "14137895-cbdd-343a-8308-54dd89d36d6e"
+      },
+      "parent_uuid": "14137895-cbdd-343a-8308-54dd89d36d6e",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:22:26.212888Z",
+      "modified_at": "2017-11-29T16:30:15.746006Z"
+    },
+    {
+      "id": "a7087687-eb84-41a5-a74f-b28f6b7cec5d",
+      "name": "Schafreuter",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "973d010e-f876-3bc1-9e94-af18698caf28",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "98ec2eea-012b-4b62-9590-c373340511e4",
+        "name": "Austria",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "3ffb3741-bb8c-3213-abe9-3d40bf3613c4"
+      },
+      "parent_uuid": "3ffb3741-bb8c-3213-abe9-3d40bf3613c4",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:13:58.767390Z",
+      "modified_at": "2017-11-29T16:30:32.288948Z"
+    },
+    {
+      "id": "5ff39291-f71f-41de-8f50-0793693de319",
+      "name": "Hafrsfjorden",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "d680234c-3d2b-3121-b1fd-05f515cb5315",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "33692a77-364a-467d-80b2-065333444f55",
+        "name": "Rogaland Fylke",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "3159c2e2-cb18-3b3f-b2f9-9c3edaaa6690"
+      },
+      "parent_uuid": "3159c2e2-cb18-3b3f-b2f9-9c3edaaa6690",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:47:34.901400Z",
+      "modified_at": "2017-11-29T16:31:22.531742Z"
+    },
+    {
+      "id": "43d530d1-58fc-4068-b549-b052041de4b8",
+      "name": "African Lion",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "d6028af9-518d-3826-a079-239249a395a9",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "74c86394-416e-4f3d-84e4-ad096d5cbca7",
+          "name": "Afrikaanse Leeuw",
+          "language": "nl"
+        },
+        {
+          "id": "e4f5ebe1-d700-49ed-ac05-7b80a0b418bb",
+          "name": "Afrikanischer Löwe",
+          "language": "de"
+        },
+        {
+          "id": "66e5b2b9-6c72-4d47-a778-51a991bc2fe9",
+          "name": "Leão africano",
+          "language": "pt"
+        },
+        {
+          "id": "7b777fe4-af18-4d1f-9e9e-4bf37075f61b",
+          "name": "León Africano",
+          "language": "es"
+        },
+        {
+          "id": "6549c2b9-f1a1-40ed-9aa2-ce468b4af128",
+          "name": "Leone africano",
+          "language": "it"
+        },
+        {
+          "id": "a8c47b6d-c98c-4492-ba10-8a6e4fb90073",
+          "name": "Lew afrykański",
+          "language": "pl"
+        },
+        {
+          "id": "0a65ae60-6e43-4146-a613-ef78ff7d1229",
+          "name": "Lion d'Afrique",
+          "language": "fr"
+        }
+      ],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "aae0f95b-43e7-4a1e-9484-f11a841ef3db",
+        "name": "Lion",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "91499c83-eaee-3e70-ab63-289153ea568b"
+      },
+      "parent_uuid": "91499c83-eaee-3e70-ab63-289153ea568b",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:27:54.501567Z",
+      "modified_at": "2017-12-26T11:26:22.615637Z"
+    },
+    {
+      "id": "cba9b5b8-bd22-4556-900e-ebcd80082fe6",
+      "name": "South Africa",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "62cbf2bc-ca30-3b2d-b5d2-03e1265f4e0d",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "48de17c5-1fff-4691-a7d2-0bfb1099537c",
+        "name": "Africa",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "14137895-cbdd-343a-8308-54dd89d36d6e"
+      },
+      "parent_uuid": "14137895-cbdd-343a-8308-54dd89d36d6e",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:05:43.217738Z",
+      "modified_at": "2017-11-29T16:31:57.309955Z"
+    },
+    {
+      "id": "b06c9db5-626a-46c3-98c0-95517f508e3f",
+      "name": "Afritzer See",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "3b3622e6-6bab-3b6f-983c-663149b640be",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "e27e9eaf-bef6-4d98-95a3-8d8d7214ba92",
+        "name": "Kärnten",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "1206134a-2859-3baa-986a-a81011432fb0"
+      },
+      "parent_uuid": "1206134a-2859-3baa-986a-a81011432fb0",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:06:34.339373Z",
+      "modified_at": "2017-11-29T16:31:55.582515Z"
+    },
+    {
+      "id": "1a45f889-6482-4fd1-a7c0-2e8bdb79cdd6",
+      "name": "Āfrēra Terara",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "8ec340a1-77f4-3165-8423-32e0907c5d48",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "3687d84d-8bb2-4e15-bb78-c8725e2132bc",
+        "name": "Afar Region",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "cfcbd226-90a2-3b69-9489-cb03e9012e92"
+      },
+      "parent_uuid": "cfcbd226-90a2-3b69-9489-cb03e9012e92",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:06:34.323964Z",
+      "modified_at": "2017-11-29T16:31:55.592594Z"
+    },
+    {
+      "id": "c131614d-f2cc-4f5a-b112-666b0b8a2b0e",
+      "name": "Hafragilsfoss",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "556274d4-0ae3-3e7e-b067-9e79f48521b9",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "e3f29099-b845-4f30-9ee4-6c2ed128778b",
+        "name": "Norðurland Eystra",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "f96088a9-a029-3e8b-87e3-202bb02631d2"
+      },
+      "parent_uuid": "f96088a9-a029-3e8b-87e3-202bb02631d2",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:47:34.897625Z",
+      "modified_at": "2017-11-29T16:31:22.534312Z"
+    },
+    {
+      "id": "5fdffbd2-e86d-4b19-a2de-7249af869bb6",
+      "name": "Kafr ad Dawwār",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "a89239bb-132e-3bb8-a604-54d2ba946095",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "8edd9f8a-b048-4bfd-9487-053c72848baf",
+        "name": "Beheira Governorate",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "5d7e8efb-ca8e-3d33-9f37-de53d8854004"
+      },
+      "parent_uuid": "5d7e8efb-ca8e-3d33-9f37-de53d8854004",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:51:26.291295Z",
+      "modified_at": "2017-11-29T16:31:15.495842Z"
+    },
+    {
+      "id": "5bca9428-4984-4950-82a3-ac22bb6f835c",
+      "name": "Central Africa",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "e3a9c0e2-41f5-3614-8bc2-6a1ab20e1386",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "48de17c5-1fff-4691-a7d2-0bfb1099537c",
+        "name": "Africa",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "14137895-cbdd-343a-8308-54dd89d36d6e"
+      },
+      "parent_uuid": "14137895-cbdd-343a-8308-54dd89d36d6e",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:03:14.770897Z",
+      "modified_at": "2017-11-29T16:32:01.855678Z"
+    },
+    {
+      "id": "787f31d8-29dd-45c0-adb0-d0c5938aa346",
+      "name": "CFA Franc BEAC",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "35ad830a-0c9f-3348-9cb8-8be1ef281b1b",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "acacde72-51ff-4dc4-9da4-33940df2ae40",
+          "name": "CFA Franc BEAC",
+          "language": ""
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "63cd65ce-86a0-4d1a-bc91-4d9717dc6e29",
+          "name": "Central African CFA franc",
+          "language": ""
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:02:30.954325Z",
+      "modified_at": "2017-12-26T11:22:06.681325Z"
+    },
+    {
+      "id": "4d5c281e-d46b-4e2f-981b-59d23514a8c3",
+      "name": "CFA Franc BCEAO",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "1768e08e-d2e9-343b-83e0-1a2c9172c2df",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "c285390c-22ad-43a9-8d72-d507b562ed6d",
+          "name": "CFA Franc BCEAO",
+          "language": ""
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "b12c0f35-0b6a-4bef-9c59-3a604b213d26",
+          "name": "West African CFA franc",
+          "language": ""
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:02:30.950634Z",
+      "modified_at": "2017-12-26T11:22:06.672231Z"
+    },
+    {
+      "id": "8def6e06-e0fd-446a-9b7c-b0b8354f3c74",
+      "name": "Kafr ash Shaykh",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "57937a97-15ad-36a1-bbe8-b27ff6a126bf",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "ae4d6808-facd-4c63-bf3b-914082964108",
+        "name": "Egypt",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "922e5fd7-7c4e-3d64-bbea-8fe5d0a19e2b"
+      },
+      "parent_uuid": "922e5fd7-7c4e-3d64-bbea-8fe5d0a19e2b",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:51:26.295000Z",
+      "modified_at": "2017-11-29T16:31:15.493335Z"
+    },
+    {
+      "id": "d56c0ce8-803d-4122-a82b-78641fc65d05",
+      "name": "africa' hunters",
+      "language": "en",
+      "type": "EMERGENT",
+      "uuid": null,
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 6,
+      "content_set": [
+        {
+          "id": "debbd1ae-e469-4341-99d0-9e43d6c75996",
+          "title": "A Leopard's Last Stand",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:16.921908Z",
+          "modified_at": "2018-01-08T11:38:16.921939Z"
+        },
+        {
+          "id": "1ca0d255-d19d-4b82-b9fd-1634cc0f5f97",
+          "title": "Bound By Blood",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:18.282297Z",
+          "modified_at": "2018-01-08T11:38:18.282327Z"
+        },
+        {
+          "id": "d7373adb-dfc3-4dae-b53c-255a2f995689",
+          "title": "The Misfit",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:19.376858Z",
+          "modified_at": "2018-01-08T11:38:19.376891Z"
+        },
+        {
+          "id": "be2af959-a379-4fa1-b08d-2bd89f58a7ed",
+          "title": "Survivors of The Plains",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:22.108167Z",
+          "modified_at": "2018-01-08T11:38:22.108199Z"
+        },
+        {
+          "id": "b3c67eb3-c1b0-4683-a11f-eb1ce8ff7dcc",
+          "title": "Teenage Pride",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:20.835790Z",
+          "modified_at": "2018-01-08T11:38:20.835819Z"
+        },
+        {
+          "id": "2ad81066-5b60-43ff-90c6-71197b852e53",
+          "title": "The Hungry Leopard",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:08.850153Z",
+          "modified_at": "2018-01-08T11:38:08.850185Z"
+        }
+      ],
+      "created_at": "2017-12-27T10:43:45.125553Z",
+      "modified_at": "2017-12-27T10:43:45.125585Z"
+    },
+    {
+      "id": "097376e0-0791-4816-aafe-c6b3ce60808b",
+      "name": "Africa's Hunters",
+      "language": "en",
+      "type": "EMERGENT",
+      "uuid": null,
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 6,
+      "content_set": [
+        {
+          "id": "debbd1ae-e469-4341-99d0-9e43d6c75996",
+          "title": "A Leopard's Last Stand",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:16.745963Z",
+          "modified_at": "2018-01-08T11:38:16.745994Z"
+        },
+        {
+          "id": "1ca0d255-d19d-4b82-b9fd-1634cc0f5f97",
+          "title": "Bound By Blood",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:18.107364Z",
+          "modified_at": "2018-01-08T11:38:18.107396Z"
+        },
+        {
+          "id": "d7373adb-dfc3-4dae-b53c-255a2f995689",
+          "title": "The Misfit",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:19.202263Z",
+          "modified_at": "2018-01-08T11:38:19.202295Z"
+        },
+        {
+          "id": "b3c67eb3-c1b0-4683-a11f-eb1ce8ff7dcc",
+          "title": "Teenage Pride",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:20.653195Z",
+          "modified_at": "2018-01-08T11:38:20.653226Z"
+        },
+        {
+          "id": "be2af959-a379-4fa1-b08d-2bd89f58a7ed",
+          "title": "Survivors of The Plains",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:21.932936Z",
+          "modified_at": "2018-01-08T11:38:21.932967Z"
+        },
+        {
+          "id": "2ad81066-5b60-43ff-90c6-71197b852e53",
+          "title": "The Hungry Leopard",
+          "weight": 0.6,
+          "origin": "program_name",
+          "location": "",
+          "created_at": "2018-01-08T11:38:08.675074Z",
+          "modified_at": "2018-01-08T11:38:08.675094Z"
+        }
+      ],
+      "created_at": "2018-01-08T11:38:08.672764Z",
+      "modified_at": "2018-01-08T11:38:08.672794Z"
+    },
+    {
+      "id": "3d96e3bd-b680-4b61-9681-fcfb58239eab",
+      "name": "African Wild Dog",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "58ebc069-dba2-3791-9ad7-4c30eab3ef65",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "54d82492-0f6e-48b7-9c08-4be0628a49e6",
+          "name": "Afrikaanse Wilde Hond",
+          "language": "nl"
+        },
+        {
+          "id": "4a8ca427-02e8-4047-9c11-099abc62cf3a",
+          "name": "Afrikanischer Wildhund",
+          "language": "de"
+        },
+        {
+          "id": "e2e4b28f-2e5f-43af-981d-6a3d16a9d124",
+          "name": "Licaón",
+          "language": "es"
+        },
+        {
+          "id": "42bb9241-1d5f-4a36-aba8-d52d9ede2393",
+          "name": "Licaone",
+          "language": "it"
+        },
+        {
+          "id": "d11bab16-2e19-49a1-b3ba-3118c6fa44af",
+          "name": "Likaon pstry",
+          "language": "pl"
+        },
+        {
+          "id": "28498172-9f73-401d-a764-e47497a4c8ab",
+          "name": "Lycaon",
+          "language": "fr"
+        },
+        {
+          "id": "843108d9-12fe-426e-bb02-9d7074bfefbe",
+          "name": "Mabeco",
+          "language": "pt"
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "1d7a0cdb-1dd7-4f65-b3d3-4f523079728f",
+          "name": "african hunting dog",
+          "language": "en"
+        },
+        {
+          "id": "12fced8e-1a60-4dfe-beac-2b4b388e5fb6",
+          "name": "cape hunting dog",
+          "language": "en"
+        },
+        {
+          "id": "f42bfb0a-9f92-4a16-98b2-1b41b9bbee31",
+          "name": "painted hunting dog",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "f52e9be9-ca7b-4223-a0d2-0e52c4855a4a",
+        "name": "Canids",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "dba19b83-8103-3631-b2a2-82170e5f7b84"
+      },
+      "parent_uuid": "dba19b83-8103-3631-b2a2-82170e5f7b84",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:27:54.510567Z",
+      "modified_at": "2017-12-26T11:26:22.646988Z"
+    },
+    {
+      "id": "408dd8ee-4d97-4988-80aa-bb060cc835d0",
+      "name": "End of Apartheid",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "934e72ce-36c0-3afa-99fe-d1135153e756",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "9fb1281e-884f-4b86-a56d-c0aebe2c4572",
+          "name": "Einde van de Apartheid",
+          "language": "nl"
+        },
+        {
+          "id": "e9ab42dd-b90f-44cd-95c5-413434c5fb40",
+          "name": "Ende der Apartheid",
+          "language": "de"
+        },
+        {
+          "id": "869e4752-3f78-4094-ab96-ffee45aac5ed",
+          "name": "Fim do Apartheid",
+          "language": "pt"
+        },
+        {
+          "id": "d0b51747-c087-49ff-8fb3-6af19c0a2763",
+          "name": "Fin del Apartheid",
+          "language": "es"
+        },
+        {
+          "id": "1d2f095b-35a5-490e-b9c7-24103679ed8a",
+          "name": "Fine dell'apartheid",
+          "language": "it"
+        },
+        {
+          "id": "50a6e2c8-cc2e-4d02-810f-e3ddb32abe35",
+          "name": "Koniec apartheidu",
+          "language": "pl"
+        },
+        {
+          "id": "f63fe6dc-3464-4883-9d3e-d32498f5fdf3",
+          "name": "Négociations sur le démantèlement de l'apartheid en Afrique du Sud",
+          "language": "fr"
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "d9060574-f207-411b-a91e-6b7687ccc121",
+          "name": "End of Apartheid in South Africa",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:02:36.071917Z",
+      "modified_at": "2017-12-26T11:22:13.084079Z"
+    },
+    {
+      "id": "6f4331cb-c605-4b3d-bd19-33991ebe2a50",
+      "name": "African Elephant",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "27063ec7-789a-35bc-95b2-26c503321f91",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "4780e168-fc14-42fd-9265-ab0e5bbc2a81",
+          "name": "Afrikaanse Olifanten",
+          "language": "nl"
+        },
+        {
+          "id": "05299e00-87a9-49ac-bc83-23f842397b07",
+          "name": "Afrikanische Elefanten",
+          "language": "de"
+        },
+        {
+          "id": "96c8884d-2faa-4fb8-a9a1-615fe0ab86ba",
+          "name": "Elefante-africano",
+          "language": "pt"
+        },
+        {
+          "id": "9315a060-f0e6-4733-b4bb-9fea2cb87000",
+          "name": "Elefantes Africanos",
+          "language": "es"
+        },
+        {
+          "id": "9c53542c-c493-46c9-85af-2db00b157ed1",
+          "name": "Elefanti africani",
+          "language": "it"
+        },
+        {
+          "id": "5e8dc930-b5ba-47fb-8e90-55d14903aa99",
+          "name": "Éléphant d'Afrique",
+          "language": "fr"
+        },
+        {
+          "id": "0e9ccefa-3f81-4251-a55d-0fef6fd00843",
+          "name": "Loxodonta",
+          "language": "pl"
+        }
+      ],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "56b36463-827b-4c95-8585-982d9138ba7b",
+        "name": "Elephants",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "a0a0bb27-26ae-3a5a-909c-17f3d4c2f5b7"
+      },
+      "parent_uuid": "a0a0bb27-26ae-3a5a-909c-17f3d4c2f5b7",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:27:54.488258Z",
+      "modified_at": "2017-12-26T11:26:22.585148Z"
+    },
+    {
+      "id": "0e2ff37d-cd01-4cda-ab77-43cd22d2b0e8",
+      "name": "African-Americans",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "1742b723-4cd3-39ca-9788-759fca59d659",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "27a9f63a-1dcd-485c-8cca-fe4bafb788bf",
+          "name": "Afro-Américains",
+          "language": "fr"
+        },
+        {
+          "id": "bd17af04-443f-4126-b426-06bd6d56186f",
+          "name": "Afroamericani",
+          "language": "it"
+        },
+        {
+          "id": "bf9999af-c9de-442f-b15d-3293a811f0fc",
+          "name": "Afroamericanos",
+          "language": "es"
+        },
+        {
+          "id": "8c66fd01-2026-4482-9aa9-b7748d632a4a",
+          "name": "Afro-americanos",
+          "language": "pt"
+        },
+        {
+          "id": "6205d36f-4883-4f7e-9647-0b61a7d6ea16",
+          "name": "Afro-Amerikanen",
+          "language": "nl"
+        },
+        {
+          "id": "69ec3f09-6fea-4ee0-ac07-305de292f115",
+          "name": "Afroamerikaner",
+          "language": "de"
+        },
+        {
+          "id": "f3a944c0-c03c-462c-90aa-bf835302b5fd",
+          "name": "Afroamerykanie",
+          "language": "pl"
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "e64ae7bf-e0ec-4e8a-837e-5b15c4be2bff",
+          "name": "African Americans",
+          "language": "en"
+        },
+        {
+          "id": "a5350dfc-4968-4283-a2e7-7846a405d027",
+          "name": "Afro Americans",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "e13c10d8-e8ad-4251-9003-4e13ac14a817",
+        "name": "Ethnicity",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "1eb22b8b-6157-3533-b9f4-d67c5b0cb136"
+      },
+      "parent_uuid": "1eb22b8b-6157-3533-b9f4-d67c5b0cb136",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:27:54.479418Z",
+      "modified_at": "2017-12-26T11:26:22.548005Z"
+    },
+    {
+      "id": "f150cc17-5a4b-4d62-8fe8-2793c9d0cdd5",
+      "name": "Dr. Shakil Afridi",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "d29489d8-ea70-3db4-beaa-c2eff27e32fc",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "6e3bd145-1d5f-44b8-8028-45dc35476679",
+          "name": "Dr. Shakil Afridi",
+          "language": ""
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "85fa2aed-8b3b-44b4-9d56-21edb8e1a825",
+          "name": "Dr. Afridi",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:25:39.603721Z",
+      "modified_at": "2017-12-26T11:23:50.252290Z"
+    },
+    {
+      "id": "86391d9c-7d01-42fe-98c4-4a0796418e7f",
+      "name": "Rebecca J. Safran",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "c6debf3d-4b54-3f94-84cb-2ea4957070a5",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "42c4e040-f88a-4572-a50f-86a1c21df16e",
+          "name": "Rebecca J. Safran",
+          "language": ""
+        }
+      ],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:27:03.163184Z",
+      "modified_at": "2017-12-26T11:25:26.969678Z"
+    },
+    {
+      "id": "4b439cb2-3af3-4852-af5f-a2d276635f92",
+      "name": "Babak A. Tafreshi",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "3968ba1f-ef14-36bc-b036-58bd01716b71",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:24:33.531047Z",
+      "modified_at": "2017-12-26T11:22:39.761125Z"
+    },
+    {
+      "id": "a932d9df-7834-48b6-916f-462ca7eac460",
+      "name": "africa' deadliest",
+      "language": "en",
+      "type": "EMERGENT",
+      "uuid": null,
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 1,
+      "content_set": [
+        {
+          "id": "eeaef32e-e841-492d-93b4-34a0a0e03347",
+          "title": "Africa's Deadliest",
+          "weight": 0.8,
+          "origin": "title",
+          "location": "",
+          "created_at": "2018-01-08T11:38:42.483332Z",
+          "modified_at": "2018-01-08T11:38:42.483374Z"
+        }
+      ],
+      "created_at": "2017-12-27T10:43:53.857557Z",
+      "modified_at": "2017-12-27T10:43:53.857586Z"
+    },
+    {
+      "id": "af867dee-4ec7-433c-ba82-f5af2950013e",
+      "name": "South African Rand",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "49409b33-de0a-3c3d-9bd1-76250cc07425",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "a1dc9cf7-082f-448a-a1eb-6051367046b0",
+          "name": "South African Rand",
+          "language": ""
+        }
+      ],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:02:32.946384Z",
+      "modified_at": "2017-12-26T11:22:08.996243Z"
+    },
+    {
+      "id": "dd8f1977-d8a8-4189-a5ec-a31bafae6c1a",
+      "name": "Africa's Deadliest",
+      "language": "en",
+      "type": "EMERGENT",
+      "uuid": null,
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 1,
+      "content_set": [
+        {
+          "id": "eeaef32e-e841-492d-93b4-34a0a0e03347",
+          "title": "Africa's Deadliest",
+          "weight": 1,
+          "origin": "title",
+          "location": "",
+          "created_at": "2018-01-08T11:38:42.305602Z",
+          "modified_at": "2018-01-08T11:38:42.305623Z"
+        }
+      ],
+      "created_at": "2018-01-08T11:38:42.303915Z",
+      "modified_at": "2018-01-08T11:38:42.303946Z"
+    },
+    {
+      "id": "d4b8aa1a-871d-46fc-a8e1-1658e1e18dd6",
+      "name": "Sassafras Mountain",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "08239d56-2d52-36bb-9696-3a641713666f",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "b3244a59-cf85-4b41-8d99-a27a04bcf64e",
+        "name": "South Carolina",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "27e9cd3e-cf54-3166-9cba-8d862b145871"
+      },
+      "parent_uuid": "27e9cd3e-cf54-3166-9cba-8d862b145871",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:13:50.392543Z",
+      "modified_at": "2017-11-29T16:30:32.566438Z"
+    },
+    {
+      "id": "1dac0752-27c1-4291-941a-61e99414e7f4",
+      "name": "Africa Megaflyover",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "83fd902f-25e0-35fb-b21c-fb5d3ba5741e",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "db13340f-c03b-4e90-a72a-6943b1687be0",
+          "name": "Abenteuerflug über Afrika",
+          "language": "de"
+        },
+        {
+          "id": "d81c07f7-9254-477e-bd86-d722b2f96ba8",
+          "name": "África a vista de pájaro",
+          "language": "es"
+        },
+        {
+          "id": "6e931b22-a3e7-4d23-a9e2-7160e561d587",
+          "name": "África Megaflyover",
+          "language": "pt"
+        },
+        {
+          "id": "d0bf4d95-c729-4b42-bafe-ab47ac467629",
+          "name": "Afrika Megaflyover",
+          "language": "nl"
+        },
+        {
+          "id": "06797230-ddc8-44ec-b821-6a6d04e12465",
+          "name": "Afryka Megaflyover",
+          "language": "pl"
+        },
+        {
+          "id": "aa224ce3-9168-4f09-9c76-c3d181adff18",
+          "name": "Sorvolando l'Africa",
+          "language": "it"
+        },
+        {
+          "id": "cb587f4d-6ddb-4c23-bc00-06b42d0175a5",
+          "name": "Vol au-dessus de l'Afrique",
+          "language": "fr"
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "cdeb3ee6-050d-4cfc-aa14-522a6c144a2f",
+          "name": "Megaflyover of Africa",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:02:35.667152Z",
+      "modified_at": "2017-12-26T11:22:11.957319Z"
+    },
+    {
+      "id": "1dbfa4da-0719-45c5-9061-c5555a0ad695",
+      "name": "Africa Megatransect",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "0a6a9b34-1ca6-3983-9545-26ff721f5e88",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "be16f99b-6ee2-43b6-ae63-e7e6dbc81898",
+          "name": "Africa Megatransect",
+          "language": "it"
+        },
+        {
+          "id": "bd1bacbd-b698-429f-b6b6-6c8ce9376ef0",
+          "name": "África Megatransect",
+          "language": "pt"
+        },
+        {
+          "id": "6b022f65-56fe-456c-ba90-6cdb1b35ac63",
+          "name": "Afrika Megatransect",
+          "language": "nl"
+        },
+        {
+          "id": "3276a92d-5766-4402-a1fc-4f741b1a0fcd",
+          "name": "Afrika Megatransect",
+          "language": "de"
+        },
+        {
+          "id": "69575774-24c0-42d7-944f-d51cdd070e76",
+          "name": "Afryka Megatransect",
+          "language": "pl"
+        },
+        {
+          "id": "fd87f11a-3fb7-4343-95aa-666e80591cf6",
+          "name": "Megatransect",
+          "language": "fr"
+        },
+        {
+          "id": "51abba68-8226-4df3-98c9-0dd3a57a6b4b",
+          "name": "Megatransecto",
+          "language": "es"
+        }
+      ],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:02:35.676095Z",
+      "modified_at": "2017-12-26T11:22:11.983528Z"
+    },
+    {
+      "id": "524eb19e-5a0e-4247-a843-80ee47799125",
+      "name": "African Lion Safari",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "3a866293-d226-307c-a9f8-ecb6a6d1c84b",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "ae2675ad-e92c-4a18-a14a-b7a5eeb95bc3",
+        "name": "Ontario",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "3866f336-77aa-3da3-993f-c616af5207dd"
+      },
+      "parent_uuid": "3866f336-77aa-3da3-993f-c616af5207dd",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:06:34.335624Z",
+      "modified_at": "2017-11-29T16:31:55.585094Z"
+    },
+    {
+      "id": "b1962182-d549-4678-8a9b-e3b75af2d713",
+      "name": "Virginia, South Africa",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "70001fd3-a011-3832-b429-a1f0d6de2575",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "012fab23-da93-412e-8bff-efb56809a8b7",
+        "name": "Free State",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "39967c4e-73f3-32fc-a693-b10b21f70d78"
+      },
+      "parent_uuid": "39967c4e-73f3-32fc-a693-b10b21f70d78",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:21:20.196778Z",
+      "modified_at": "2017-11-29T16:30:17.888125Z"
+    },
+    {
+      "id": "77f0a353-c256-44a8-9231-017672442f5f",
+      "name": "Embassy of South Africa",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "344ed0c8-4b92-3663-8404-ca6e8803b290",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "399e58ad-5064-4ad1-a692-004df6c139b1",
+        "name": "District of Columbia",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "b9215e67-1624-38d3-a024-9918e5175272"
+      },
+      "parent_uuid": "b9215e67-1624-38d3-a024-9918e5175272",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:43:08.472776Z",
+      "modified_at": "2017-11-29T16:31:30.873926Z"
+    },
+    {
+      "id": "f68dfa80-ace6-4d89-836e-96a681bfaef7",
+      "name": "Central African Republic",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "27512429-68d3-3b22-9156-1a0849a652d6",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "48de17c5-1fff-4691-a7d2-0bfb1099537c",
+        "name": "Africa",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "14137895-cbdd-343a-8308-54dd89d36d6e"
+      },
+      "parent_uuid": "14137895-cbdd-343a-8308-54dd89d36d6e",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:03:14.773707Z",
+      "modified_at": "2017-11-29T16:32:01.853195Z"
+    },
+    {
+      "id": "472e5462-4327-44a4-a213-25fe5cb6d0bc",
+      "name": "Australopithecus Africanus",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "2d69831a-231e-3192-aaaa-d5c65c383ab2",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "759d6de3-3068-4eb7-8cfd-c81609f12fb2",
+          "name": "Australopiteco Africano",
+          "language": "it"
+        },
+        {
+          "id": "83c6d9a9-f3e6-4332-8b6e-49782cee8657",
+          "name": "Australopithecus africanus",
+          "language": "de"
+        },
+        {
+          "id": "7384a3bc-daf4-4e3a-8a4a-28f416665724",
+          "name": "Australopithecus africanus",
+          "language": "pt"
+        },
+        {
+          "id": "952d0683-ae51-48d0-9f40-5a3fdc92f8ab",
+          "name": "Australopithecus Africanus",
+          "language": "pl"
+        },
+        {
+          "id": "e81b32d4-adf4-481d-8bae-4161eb21f4e9",
+          "name": "Australopithecus Africanus",
+          "language": "es"
+        },
+        {
+          "id": "463073a2-a864-4bee-9faa-d2cd8f8c4142",
+          "name": "Australopithecus Africanus",
+          "language": "nl"
+        },
+        {
+          "id": "1d53dd38-9fce-430d-bb17-f99e60a758bb",
+          "name": "Australopithèque gracile",
+          "language": "fr"
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "72867774-0d0c-4dce-bbcf-40b1d7b05d3d",
+          "name": "A. africanus",
+          "language": "en"
+        },
+        {
+          "id": "4f2fafce-d8df-4bfd-b44f-cd74657f4235",
+          "name": "Au. africanus",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "774366bd-8ea6-43d6-b176-bef1c9404fe7",
+        "name": "Australopithecus",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "df8ee2cb-3c6d-3e50-89d9-31c39500a3b0"
+      },
+      "parent_uuid": "df8ee2cb-3c6d-3e50-89d9-31c39500a3b0",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:28:01.287307Z",
+      "modified_at": "2017-12-26T11:26:33.196895Z"
+    },
+    {
+      "id": "e3220927-d660-4d50-8008-3b28c3cb922e",
+      "name": "African Wildlife Foundation",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "e893bbb5-9161-3fad-9925-7be8038b9adb",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [
+        {
+          "id": "6a073c9d-1109-4b15-bc05-cf975508b301",
+          "name": "AWF",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:24:22.487243Z",
+      "modified_at": "2017-12-26T11:22:24.496524Z"
+    },
+    {
+      "id": "ed9e1afb-1cd4-4dfc-b5b9-255390ab3764",
+      "name": "London to Cape Town Air Race",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "b4ef91ef-7065-3759-8c84-9c0cbeea7b10",
+      "ner": null,
+      "translatedtag_set": [
+        {
+          "id": "72391c50-eb35-40ea-a12d-ad7b4ec99545",
+          "name": "Flug von London nach Kapstadt",
+          "language": "de"
+        },
+        {
+          "id": "145d27a2-3bb8-472d-b726-ac8d20e96811",
+          "name": "Londen naar Kaapstad Air Race",
+          "language": "nl"
+        },
+        {
+          "id": "891dfef0-052a-48ed-8459-fe21d81a0d25",
+          "name": "Londra a Città del Capo Air Race",
+          "language": "it"
+        },
+        {
+          "id": "27888dcb-8336-403d-881d-2792ed1bb304",
+          "name": "Londres à Cape Town Air Race",
+          "language": "fr"
+        },
+        {
+          "id": "37ce9bd5-8f79-4c7a-a98f-9ba9e98cb57b",
+          "name": "Londres à Cidade do Cabo",
+          "language": "pt"
+        },
+        {
+          "id": "a5f7cc24-83c9-45bb-a432-19f88450de65",
+          "name": "Londres a Ciudad del Cabo Air Race",
+          "language": "es"
+        },
+        {
+          "id": "0ec86dda-9407-4569-8958-ef9725a6d631",
+          "name": "Londyn Kapsztad Race Air",
+          "language": "pl"
+        }
+      ],
+      "synonymtag_set": [
+        {
+          "id": "a7ff00e3-a7d4-47a8-9fa4-102c4058b01b",
+          "name": "First air flight from London to Cape Town",
+          "language": "en"
+        },
+        {
+          "id": "b58ba84f-401f-4259-9e24-29eb9b5625bd",
+          "name": "First air flight from London to South Africa",
+          "language": "en"
+        },
+        {
+          "id": "58dcfbc4-28b2-4308-9d79-a4b83d70613b",
+          "name": "First flight from London to Cape Town",
+          "language": "en"
+        },
+        {
+          "id": "198d6bfc-74cc-48d8-9d50-b404deb29129",
+          "name": "London to Cape Town First Flight",
+          "language": "en"
+        }
+      ],
+      "misspellingtag_set": [],
+      "parent": null,
+      "parent_uuid": null,
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:02:38.856047Z",
+      "modified_at": "2017-12-26T11:22:16.803549Z"
+    },
+    {
+      "id": "9e5d7ea5-4ac0-4561-9eae-421771433cbe",
+      "name": "South African National Gallery",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "124f6ca6-3810-3161-8ed4-4fe62e1b287f",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "7859d995-9bf5-442c-b666-df374938ac25",
+        "name": "Western Cape",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "fa19ed02-ebaa-34dc-9c70-001e45aac06a"
+      },
+      "parent_uuid": "fa19ed02-ebaa-34dc-9c70-001e45aac06a",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T16:15:56.375110Z",
+      "modified_at": "2017-11-29T16:30:28.539637Z"
+    },
+    {
+      "id": "8fd37e24-89a4-4334-bfc3-7f446e648e3b",
+      "name": "African American Civil War Memorial",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "f6fd8b20-2d60-300b-93b8-fa544145f006",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "399e58ad-5064-4ad1-a692-004df6c139b1",
+        "name": "District of Columbia",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "b9215e67-1624-38d3-a024-9918e5175272"
+      },
+      "parent_uuid": "b9215e67-1624-38d3-a024-9918e5175272",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:06:34.327889Z",
+      "modified_at": "2017-11-29T16:31:55.590051Z"
+    },
+    {
+      "id": "2e072eef-5582-40d0-9f3b-615f74a3a4c4",
+      "name": "African Burial Ground National Monument",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "a357b19a-8f43-3295-8579-b6c23fd2e849",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "59e2266f-5242-4225-b0e7-d65be4f83983",
+        "name": "New York",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "0f2f2634-e8d3-39b8-9541-9832d57cbe47"
+      },
+      "parent_uuid": "0f2f2634-e8d3-39b8-9541-9832d57cbe47",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:06:34.331831Z",
+      "modified_at": "2017-11-29T16:31:55.587559Z"
+    },
+    {
+      "id": "183212eb-63d4-446e-a583-5566f849be80",
+      "name": "Boston African-American National Historic Site",
+      "language": "en",
+      "type": "NATGEO",
+      "uuid": "b5ee8007-cdc6-34be-b54a-e6b1d1c0f2c8",
+      "ner": null,
+      "translatedtag_set": [],
+      "synonymtag_set": [],
+      "misspellingtag_set": [],
+      "parent": {
+        "id": "6ce5f0ee-6887-44b6-8e4e-a542ba8afa86",
+        "name": "Massachusetts",
+        "language": "en",
+        "type": "NATGEO",
+        "uuid": "d49524c7-3e19-397b-abf1-59a88eb33ba1"
+      },
+      "parent_uuid": "d49524c7-3e19-397b-abf1-59a88eb33ba1",
+      "themes_count": 0,
+      "theme_set": [],
+      "contents_count": 0,
+      "content_set": [],
+      "created_at": "2017-11-29T15:11:49.948563Z",
+      "modified_at": "2017-11-29T16:31:45.727029Z"
     }
-]
+  ]

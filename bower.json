@@ -8,6 +8,7 @@
     "dependencies": {
         "angular": ">=1.2",
         "angular-sanitize": ">=1.2",
-        "angular-mocks": ">=1.2"
+        "angular-mocks": ">=1.2",
+        "angular-drag-and-drop-lists": "dndLists#^2.1.0"
     }
 }
