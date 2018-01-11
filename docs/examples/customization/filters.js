@@ -3,7 +3,6 @@ angular.module('selectDemo')
         return function(label, query, option, element) {
 
             var html = '<i>' + label + '</i>';
-
             return $sce.trustAsHtml(html);
         };
     }])

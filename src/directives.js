@@ -8,7 +8,9 @@ angular.module('oi.select')
         restrict: 'AE',
         templateUrl: 'src/template.html',
         require: 'ngModel',
-        scope: {},
+        scope: {
+            onLabelClicked: '&'
+        },
         compile: function (element, attrs) {
             var optionsExp = attrs.oiOptions,
                 match = optionsExp ? optionsExp.match(NG_OPTIONS_REGEXP) : ['', 'i', '', '', '', 'i', '', '', ''];
@@ -255,6 +257,56 @@ angular.module('oi.select')
                     });
                 });
 
+                scope.dropCallback = function dropCallback(index, item, external, type) {
+
+                    console.log('dropped at', index, external, type);
+                    // Return false here to cancel drop. Return true if you insert the item yourself.
+                    return item;
+                };
+                scope.onMoved = function onMoved(item, index, output){               
+     
+                    var isNewItem = function(v){
+                        return v.__proto__.constructor.name !== "Resource"
+                    }
+                    var getItemToRemove = function(list, id){
+                        return list.findIndex(function(item){
+                            return (item.id === id) && item.__proto__.constructor.name === "Resource"
+                        })
+                        
+                    }
+
+                    $timeout(function() {
+                        console.log(output)
+                        var destination = output.findIndex(isNewItem);
+                        var origin =getItemToRemove(output, output[destination].id)
+                        console.log('destination is', destination)
+                        var newOutput = []
+                        for(var i =0; i< output.length; i++){
+                            if(i === destination){
+                                newOutput.push(output[origin])
+                            }else if(i === origin) {
+                                // DO NOTHING
+                            } else{
+                                newOutput.push(output[i])
+                            }
+                        }
+                        console.log('genial')
+                        scope.output = newOutput
+                        ctrl.$setViewValue(newOutput);
+
+                      }, 0);
+                   
+                  
+                
+                   
+                   
+                }
+
+                scope.clickeame = function clickeame (){
+                    console.log('clickeameclickeameclickeameclickeameclickeame')
+                    
+                }
+
                 scope.addItem = function addItem(option) {
                     lastQuery = scope.query;
 
@@ -396,22 +448,22 @@ angular.module('oi.select')
                             resetMatches();
                             break;
 
-                        case 8: /* backspace */
-                            if (!scope.query.length) {
-                                if (!multiple || editItem) {
-                                    scope.backspaceFocus = true;
-                                }
-                                if (scope.backspaceFocus && scope.output && (!multiple || scope.output.length)) { //prevent restoring last deleted option
-                                    scope.removeItem(scope.output.length - 1);
+                        // case 8: /* backspace */
+                        //     if (!scope.query.length) {
+                        //         if (!multiple || editItem) {
+                        //             scope.backspaceFocus = true;
+                        //         }
+                        //         if (scope.backspaceFocus && scope.output && (!multiple || scope.output.length)) { //prevent restoring last deleted option
+                        //             scope.removeItem(scope.output.length - 1);
 
-                                    if (editItem) {
-                                        event.preventDefault();
-                                    }
-                                    break;
-                                }
-                                scope.backspaceFocus = !scope.backspaceFocus;
-                                break;
-                            }
+                        //             if (editItem) {
+                        //                 event.preventDefault();
+                        //             }
+                        //             break;
+                        //         }
+                        //         scope.backspaceFocus = !scope.backspaceFocus;
+                        //         break;
+                        //     }
                         default: /* any key */
                             if (scope.inputHide) {
                                 cleanInput();

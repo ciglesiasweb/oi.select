@@ -10,7 +10,7 @@ angular.module('oi.select')
     return function(label) {
         var closeIcon = '<span class="close select-search-list-item_selection-remove">×</span>';
 
-        return $sce.trustAsHtml(label + closeIcon);
+        return $sce.trustAsHtml(label);
     };
 }])
 

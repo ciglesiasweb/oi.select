@@ -8,6 +8,11 @@
                 ng-model="bundle"
                 multiple
                 placeholder="Select"
+                on-label-clicked="onLabelClicked(item)"
+                oi-select-options="{
+                    debounce: 200,
+                    searchFilter: 'mySearchFilter'
+                }"
                 ></oi-select>
         </div>
     </div>

@@ -1,13 +1,15 @@
 <div class="select-search">
-    <p>dddddddddd</p>
+    <p>12eee</p>
     <ul class="select-search-list" dnd-list="output">
         <li class="btn btn-default btn-xs select-search-list-item select-search-list-item_selection"
             ng-hide="listItemHide"
             ng-repeat="item in output track by $index"
             ng-class="{focused: backspaceFocus && $last}"
-            ng-clickkkk="removeItem($index)"
-            dnd-draggable="item"
-            ng-bind-html="getSearchLabel(item)"></li>
+            dnd-moved="onMoved(item, $index, output)"
+            dnd-draggable="item">
+            <span ng-bind-html="getSearchLabel(item)" ng-click="onLabelClicked({item: item})"></span>
+            <span class="close select-search-list-item_selection-remove" ng-click="removeItem($index)">×</span>
+        </li>
         <li class="select-search-list-item select-search-list-item_input"
             ng-class="{'select-search-list-item_hide': inputHide}"><input autocomplete="off"
                                                                           ng-model="query"

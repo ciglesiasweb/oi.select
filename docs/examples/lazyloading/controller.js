@@ -19,4 +19,15 @@ angular.module('selectDemo')
         }
 
         $scope.bundle = undefined;
-    });
+
+        $scope.onLabelClicked = function(item) {
+            console.log(item);
+    };
+    })
+    .filter('mySearchFilter', ['$sce', function($sce) {
+        return function(label, query, option, element) {
+            debugger;
+            var html = '<i>' + label + '</i>';
+            return $sce.trustAsHtml(html);
+        };
+    }])

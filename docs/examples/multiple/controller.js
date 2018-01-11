@@ -15,4 +15,7 @@ angular.module('selectDemo')
             "category": "shoes"
         }];
         $scope.bundle3 = [];
+        $scope.onLabelClicked = function(item) {
+                        console.log(item);
+                };
     });
