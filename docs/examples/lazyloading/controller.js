@@ -12,10 +12,22 @@ angular.module('selectDemo')
 
             $timeout(function() {
                 $scope.shopArr.$promise
-                    .then(deferred.resolve);
+                    .then( data => deferred.resolve(setPrototype(data)));
             }, 1000);
 
             return deferred.promise;
+        }
+
+        function setPrototype(data) {
+            var option = function Option() {};
+            var result = [];
+            for( var i = 0; i < data.length; i++ ) {
+                var dataNew = Object.create(option.prototype);
+                Object.assign(dataNew, data[i]);
+                result.push(dataNew);
+            }
+    
+            return result;
         }
 
         $scope.bundle = undefined;
@@ -26,7 +38,6 @@ angular.module('selectDemo')
     })
     .filter('mySearchFilter', ['$sce', function($sce) {
         return function(label, query, option, element) {
-            debugger;
             var html = '<i>' + label + '</i>';
             return $sce.trustAsHtml(html);
         };
