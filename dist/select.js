@@ -593,29 +593,22 @@ angular.module('oi.select')
                     });
                 });
 
-                scope.dropCallback = function dropCallback(index, item, external, type) {
-
-                    console.log('dropped at', index, external, type);
-                    // Return false here to cancel drop. Return true if you insert the item yourself.
-                    return item;
-                };
+                
                 scope.onMoved = function onMoved(item, index, output){               
      
                     var isNewItem = function(v){
-                        return v.__proto__.constructor.name !== "Resource"
+                        return v.__proto__.constructor.name !== "Option"
                     }
                     var getItemToRemove = function(list, id){
                         return list.findIndex(function(item){
-                            return (item.id === id) && item.__proto__.constructor.name === "Resource"
+                            return (item.id === id) && item.__proto__.constructor.name === "Option"
                         })
                         
                     }
 
                     $timeout(function() {
-                        console.log(output)
                         var destination = output.findIndex(isNewItem);
                         var origin =getItemToRemove(output, output[destination].id)
-                        console.log('destination is', destination)
                         var newOutput = []
                         for(var i =0; i< output.length; i++){
                             if(i === destination){
@@ -626,21 +619,10 @@ angular.module('oi.select')
                                 newOutput.push(output[i])
                             }
                         }
-                        console.log('genial')
                         scope.output = newOutput
                         ctrl.$setViewValue(newOutput);
 
-                      }, 0);
-                   
-                  
-                
-                   
-                   
-                }
-
-                scope.clickeame = function clickeame (){
-                    console.log('clickeameclickeameclickeameclickeameclickeame')
-                    
+                      }, 0);          
                 }
 
                 scope.addItem = function addItem(option) {
