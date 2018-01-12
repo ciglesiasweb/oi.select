@@ -10,25 +10,27 @@
             <span class="close select-search-list-item_selection-remove" ng-click="removeItem($index)">×</span>
         </li>
         <li class="select-search-list-item select-search-list-item_input"
-            ng-class="{'select-search-list-item_hide': inputHide}"><input autocomplete="off"
-                                                                          ng-model="query"
-                                                                          ng-keyup="keyUp($event)"
-                                                                          ng-keydown="keyDown($event)"/></li>
+            ng-class="{'select-search-list-item_hide': inputHide}">
+            <input autocomplete="off"
+                ng-model="query"
+                ng-keyup="keyUp($event)"
+                ng-keydown="keyDown($event)"/>
+            <div class="select-dropdown" ng-show="isOpen">
+                <ul ng-if="isOpen" class="select-dropdown-optgroup" ng-repeat="(group, options) in groups">
+                    <div class="select-dropdown-optgroup-header"
+                            ng-if="group && options.length"
+                            ng-bind-html="getGroupLabel(group, options)"></div>
+                    <li class="select-dropdown-optgroup-option"
+                        ng-init="isDisabled = getDisableWhen(option)"
+                        ng-repeat="option in options"
+                        ng-class="{'active': selectorPosition === groupPos[group] + $index, 'disabled': isDisabled, 'ungroup': !group}"
+                        ng-click="isDisabled || addItem(option)"
+                        ng-mouseenter="setSelection(groupPos[group] + $index)"
+                        ng-bind-html="getDropdownLabel(option)"></li>
+                </ul>
+            </div>
+        </li>
         <li class="select-search-list-item select-search-list-item_loader"
             ng-show="showLoader"></li>
-    </ul>
-</div>
-<div class="select-dropdown" ng-show="isOpen">
-    <ul ng-if="isOpen" class="select-dropdown-optgroup" ng-repeat="(group, options) in groups">
-        <div class="select-dropdown-optgroup-header"
-             ng-if="group && options.length"
-             ng-bind-html="getGroupLabel(group, options)"></div>
-        <li class="select-dropdown-optgroup-option"
-            ng-init="isDisabled = getDisableWhen(option)"
-            ng-repeat="option in options"
-            ng-class="{'active': selectorPosition === groupPos[group] + $index, 'disabled': isDisabled, 'ungroup': !group}"
-            ng-click="isDisabled || addItem(option)"
-            ng-mouseenter="setSelection(groupPos[group] + $index)"
-            ng-bind-html="getDropdownLabel(option)"></li>
     </ul>
 </div>
