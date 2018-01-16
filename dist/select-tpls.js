@@ -597,11 +597,11 @@ angular.module('oi.select')
                 scope.onMoved = function onMoved(item, index, output){               
      
                     var isNewItem = function(v){
-                        return v.__proto__.constructor.name !== "Option"
+                        return v.__proto__.constructor.name.toLowerCase() !== "option"
                     }
                     var getItemToRemove = function(list, id){
                         return list.findIndex(function(item){
-                            return (item.id === id) && item.__proto__.constructor.name === "Option"
+                            return (item.id === id) && item.__proto__.constructor.name.toLowerCase() === "option"
                         })
                         
                     }
