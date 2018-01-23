@@ -9,6 +9,13 @@ angular.module('selectDemo', ['oi.select', 'ngResource', 'hljs', 'dndLists', 'ge
         );
     })
 
+    .factory('SynonymsArr', function ($resource) {
+        return $resource(URL + 'data/synonyms.json', {}, {
+                query: {method: 'GET', cache: true, isArray: true}
+            }
+        );
+    })
+
     .factory('ShopArrShort', function ($resource) {
         return $resource(URL + 'data/shopArrShort.json', {}, {
                 query: {method: 'GET', cache: true, isArray: true}
