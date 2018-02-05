@@ -393,7 +393,8 @@ angular.module('oi.select')
                             scope.selectorPosition = angular.isNumber(scope.selectorPosition) ? scope.selectorPosition : top - 1;
                             setOption(listElement, scope.selectorPosition === bottom ? top : scope.selectorPosition + 1);
                             keyUpDownWerePressed = true;
-                            if (!scope.query.length && !scope.isOpen) {
+                            var minlengthReached = scope.query.length >= ( options.minlength || 0);
+                            if (!scope.query.length && !scope.isOpen && minlengthReached) {
                                 getMatches();
                             }
                             if (scope.inputHide) {

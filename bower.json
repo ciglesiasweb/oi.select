@@ -1,9 +1,10 @@
 {
     "author": {
-        "name": "https://github.com/tamtakoe"
+        "name": "https://github.com/ciglesiasweb"
     },
-    "name": "oi.select",
-    "version": "0.2.22",
+    "name": "oi-dnd.select",
+    "description": "oi.select with drag and drop feature",
+    "version": "0.2.23",
     "main": ["./dist/select-tpls.min.js", "./dist/select.min.css"],
     "dependencies": {
         "angular": ">=1.2",
