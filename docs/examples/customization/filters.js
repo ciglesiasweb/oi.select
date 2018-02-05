@@ -2,11 +2,17 @@ angular.module('selectDemo')
     .filter('mySearchFilter', ['$sce', function($sce) {
         return function(label, query, option, element) {
 
-            var html = '<i>' + label + '</i>';
+            var html = '<i>' + label + 'bb</i>';
+            return html;
+        };
+    }])
+    .filter('synonymsFilter', ['$sce', function($sce) {
+        return function(label, query, option, element) {
+            // console.log('ddddd')
+            var html = option.value;
             return $sce.trustAsHtml(html);
         };
     }])
-
     .filter('myDropdownFilter', ['$sce', function($sce) {
         return function(label, query, option, element) {
 

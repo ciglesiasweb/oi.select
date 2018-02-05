@@ -52,9 +52,4 @@ angular.module('selectDemo')
             console.log(item);
     };
     })
-    .filter('mySearchFilter', ['$sce', function($sce) {
-        return function(label, query, option, element) {
-            var html = '<i>' + label + '</i>';
-            return $sce.trustAsHtml(html);
-        };
-    }])
+  
