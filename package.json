@@ -1,7 +1,7 @@
 {
     "name": "oi.select",
     "license": "MIT",
-    "version": "0.2.23",
+    "version": "0.2.24",
     "repository": {
         "type": "git",
         "url": "git://github.com/ciglesiasweb/oi.select.git"

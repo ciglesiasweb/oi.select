@@ -4,7 +4,7 @@
     },
     "name": "oi-dnd.select",
     "description": "oi.select with drag and drop feature",
-    "version": "0.2.23",
+    "version": "0.2.24",
     "main": ["./dist/select-tpls.min.js", "./dist/select.min.css"],
     "dependencies": {
         "angular": ">=1.2",
