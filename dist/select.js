@@ -744,7 +744,8 @@ angular.module('oi.select')
                             break;
 
                         case 9: /* tab */
-                            saveOn('tab');
+                            // saveOn('tab');
+                            event.preventDefault();
                             break;
 
                         case 13: /* enter */
